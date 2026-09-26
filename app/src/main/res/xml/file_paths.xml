@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Existing shared cache files -->
+    <cache-path
+        name="shared_cache"
+        path="." />
+
+    <!-- Existing Documents files -->
+    <files-path
+        name="shared_documents"
+        path="Documents/" />
+
+    <!-- Existing photos -->
+    <files-path
+        name="photos"
+        path="photos/" />
+
+    <!--
+        SLH APK updates
+
+        DownloadManager stores the downloaded APK inside
+        the app's external files directory.
+
+        This path allows FileProvider to safely share that
+        APK with Android's package installer.
+    -->
+    <external-files-path
+        name="slh_update_apk"
+        path="." />
+
+</paths>
