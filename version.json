@@ -1,8 +1,37 @@
 {
-  "versionCode": 3,
-  "versionName": "10.26.2.1",
-  "apkUrl": "https://github.com/deepakkundraxi/SLH/releases/download/v10.26.2.1/SLH.apk",
-  "forceUpdate": false,
-  "releaseNotes": "New features and bug fixes",
-  "sha256": ""
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.slh.app",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 3,
+      "versionName": "10.26.2.1",
+      "outputFile": "SLH.apk"
+    }
+  ],
+  "elementType": "File",
+  "baselineProfiles": [
+    {
+      "minApi": 28,
+      "maxApi": 30,
+      "baselineProfiles": [
+        "baselineProfiles/1/SLH.dm"
+      ]
+    },
+    {
+      "minApi": 31,
+      "maxApi": 2147483647,
+      "baselineProfiles": [
+        "baselineProfiles/0/SLH.dm"
+      ]
+    }
+  ],
+  "minSdkVersionForDexing": 24
 }
