@@ -5,7 +5,7 @@
     "kind": "Directory"
   },
   "applicationId": "com.slh.app",
-  "variantName": "release",
+  "variantName": "SLH",
   "elements": [
     {
       "type": "SINGLE",
