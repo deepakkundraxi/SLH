@@ -1,37 +1,9 @@
-{
-  "version": 3,
-  "artifactType": {
-    "type": "APK",
-    "kind": "Directory"
-  },
-  "applicationId": "com.slh.app",
-  "variantName": "SLH",
-  "elements": [
-    {
-      "type": "SINGLE",
-      "filters": [],
-      "attributes": [],
-      "versionCode": 3,
-      "versionName": "10.26.2.1",
-      "outputFile": "SLH.apk"
-    }
-  ],
-  "elementType": "File",
-  "baselineProfiles": [
-    {
-      "minApi": 28,
-      "maxApi": 30,
-      "baselineProfiles": [
-        "baselineProfiles/1/SLH.dm"
-      ]
-    },
-    {
-      "minApi": 31,
-      "maxApi": 2147483647,
-      "baselineProfiles": [
-        "baselineProfiles/0/SLH.dm"
-      ]
-    }
-  ],
-  "minSdkVersionForDexing": 24
-}
+ { 
+   "versionCode": 4, 
+   "versionName": "10.26.2.2", 
+   "apkUrl": "https://github.com/deepakkundraxi/SLH/releases/download/v10.26.2.2/SLH.apk", 
+   "forceUpdate": false, 
+   "minVersionCode": 0, 
+   "sha256": "", 
+   "releaseNotes": "android 11 competable" 
+ }
